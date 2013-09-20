@@ -15,11 +15,34 @@
         </ul>
 
 <p>Fullt namn: Johan Erik Liljeberg</p>
- <p>Email:johan.liljeberg@hotmail.com</a></p>
+<p>Email: johan.liljeberg@hotmail.com</a></p>
 
-<input type="text" /> 
-<input type="password" /> 
-<input type="datetime" /> 
+<div id="Formulär">
+ <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+	<fieldset>
+	<legend>Fråga</legend>
+	<label for="Tecknare">Kalle tecknare</label>
+	<select name="Tecknare" id="Tecknare">
+		<option value="Donrosa">Don Rosa</option>
+		<option value="WilliamvanHorn">William van Horn</option>
+		<option value="CarlBarks">Carl Barks</option>
+	</select>
+	<p></p> 
+	<label for="form_header">Rubrik:</label>
+	<input type="text" id="form_header" name="Fråga" />
+	<p></p>
+	<label for="Text">Tyck till:</label>
+	<textarea id="Text" name="Text"></textarea>
+	<p></p>
+    <input type="radio" name="Värdering" value="Bäst">Bäst
+    <input type="radio" name="värdering" value="Likgiltlig">likgiltlig
+
+	<div class="button"><input type="submit" value="Skicka" /></div>
+	</fieldset>
+	</form>
+ </div>
+
+
 
     </body>
 </html>
